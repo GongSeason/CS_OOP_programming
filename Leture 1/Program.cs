@@ -1,28 +1,49 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
 
-class printToScreenRandomNumber
+class Program
 {
-    Random myRand = new Random();
+    static void Main(string[] args)
+    {
+        Car mycar = new Car();
+        Console.WriteLine($"my car default model is :{mycar.carModel}");
+        mycar.carModel = "my second model car";
+        Console.WriteLine($"my change model is :{mycar.carModel}");
+        Console.WriteLine($"my car default price is :{mycar.IrPrice}");
+        mycar.IrPrice = 351;
+        Console.WriteLine($"my change price is :{mycar.IrPrice}");
+        Console.WriteLine($"my car default brand is :{mycar.srBrand}");
+        Console.WriteLine($"my car default year is :{mycar.IrYear}");
+        
+        mycar.IrYear = 3000;
+        Console.WriteLine($"my change year is :{mycar.IrYear}");
 
-    public void printToScreen()
-    {
-        Console.WriteLine(myRand.Next().ToString("N0"));
-    }
-
-    private void printToPrivate()
-    {
-        Console.WriteLine(myRand.Next().ToString("N0"));
-    }
-    protected void printToProtected()
-    {
-        Console.WriteLine(myRand.Next().ToString("N0"));
+        // Wait for user input to close  
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }
 }
 
-class printScreenV2 : printToScreenRandomNumber
+class Car
 {
-    public void printProtected()
+    public string carModel = "Default Car";
+    public string srBrand;
+    public int IrPrice { get; set; }
+
+    private int _irYear = 1999;
+
+    public int IrYear
     {
-       this.printToProtected();
+        get
+        {
+            if (_irYear < 2000)
+                return 2000;
+            return _irYear;
+        }
+        set
+        {
+            if (value > 3000)
+                _irYear = 3000;
+            _irYear = value - 10;
+        }
     }
 }

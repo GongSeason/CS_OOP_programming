@@ -41,9 +41,10 @@ class Car
         }
         set
         {
-            if (value > 3000)
-                _irYear = 3000;
             _irYear = value - 10;
+            if (_irYear > 3000)
+                _irYear = 3000;
+            
         }
     }
 }

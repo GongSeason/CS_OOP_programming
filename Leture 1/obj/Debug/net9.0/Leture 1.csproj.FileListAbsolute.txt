@@ -1,0 +1,15 @@
+D:\7_C#_git\CS_OOP_programming\Leture 1\bin\Debug\net9.0\Leture 1.exe
+D:\7_C#_git\CS_OOP_programming\Leture 1\bin\Debug\net9.0\Leture 1.deps.json
+D:\7_C#_git\CS_OOP_programming\Leture 1\bin\Debug\net9.0\Leture 1.runtimeconfig.json
+D:\7_C#_git\CS_OOP_programming\Leture 1\bin\Debug\net9.0\Leture 1.dll
+D:\7_C#_git\CS_OOP_programming\Leture 1\bin\Debug\net9.0\Leture 1.pdb
+D:\7_C#_git\CS_OOP_programming\Leture 1\obj\Debug\net9.0\Leture 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\7_C#_git\CS_OOP_programming\Leture 1\obj\Debug\net9.0\Leture 1.AssemblyInfoInputs.cache
+D:\7_C#_git\CS_OOP_programming\Leture 1\obj\Debug\net9.0\Leture 1.AssemblyInfo.cs
+D:\7_C#_git\CS_OOP_programming\Leture 1\obj\Debug\net9.0\Leture 1.csproj.CoreCompileInputs.cache
+D:\7_C#_git\CS_OOP_programming\Leture 1\obj\Debug\net9.0\Leture 1.sourcelink.json
+D:\7_C#_git\CS_OOP_programming\Leture 1\obj\Debug\net9.0\Leture 1.dll
+D:\7_C#_git\CS_OOP_programming\Leture 1\obj\Debug\net9.0\refint\Leture 1.dll
+D:\7_C#_git\CS_OOP_programming\Leture 1\obj\Debug\net9.0\Leture 1.pdb
+D:\7_C#_git\CS_OOP_programming\Leture 1\obj\Debug\net9.0\Leture 1.genruntimeconfig.cache
+D:\7_C#_git\CS_OOP_programming\Leture 1\obj\Debug\net9.0\ref\Leture 1.dll
